@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Go
+backend/bin/
+backend/tmp/
+
+# React / Node
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS / Tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+prompt-crud.md
+prompt-project.md
+.codex
